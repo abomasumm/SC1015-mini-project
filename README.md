@@ -46,9 +46,20 @@ Detailed statistical analysis, including mean, median, mode, and distribution of
 
 The models used in this project include:
 
-Logistic Regression
-Decision Tree
-Random Forest
+### Logistic Regression
+- Probabilistic Predictions: Provides probabilities that a patient will experience a heart attack, offering a quantitative measure of risk that can guide clinical decisions.
+- Simplicity and Speed: Quick to train and easy to implement, making it practical for use in clinical settings where computational resources might be limited.
+- Feature Impact Understanding: Direct interpretation of how each risk factor (like cholesterol levels, age, etc.) impacts the likelihood of a heart attack, aiding physicians in understanding underlying risk factors.
+
+### Decision Tree
+- Interpretability: One of the most interpretable models available. Medical practitioners can see exactly how conclusions are drawn, which is crucial for trust and verification in clinical use.
+- Handling Non-linear Relationships: Can efficiently model complex, non-linear relationships that might exist between variables in heart attack risk, such as interactions between age, lifestyle, and genetic factors.
+- Variable Importance: Identifies which variables are the most influential in predicting heart attacks, which can help in focusing diagnostic tests and interventions.
+
+### Random Forest
+- High Accuracy: Typically offers superior predictive accuracy through ensemble learning, which combines the predictions of multiple decision trees.
+- Robustness to Overfitting: By averaging multiple trees, it tends to generalize better, making it reliable in varied clinical environments and across different patient groups.
+- Handling Unbalanced Data: Effective in clinical datasets where some classes (like patients with heart attacks) might be underrepresented.
 
 ## Evaluations of Models
 
