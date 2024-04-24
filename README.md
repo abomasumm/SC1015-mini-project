@@ -8,7 +8,7 @@ The goal of this project is to apply data science techniques to predict the like
 
 ## Flow of Pipeline
 1. Data Cleaning and Preprocessing
-2. 2. Exploratory Data Analysis (EDA)
+2.Exploratory Data Analysis (EDA)
 3. Exploratory Data Analysis (EDA)
 4. Model Building
 5. Model Evaluation
