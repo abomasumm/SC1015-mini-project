@@ -8,17 +8,20 @@ The goal of this project is to apply data science techniques to predict the like
 
 ## Flow of Pipeline
 1. Data Cleaning and Preprocessing
-2. ![Uploading image.png…]()
-
 3. Exploratory Data Analysis (EDA)
 4. Model Building
 5. Model Evaluation
 6. Conclusion
 
 ## Key Findings from EDA
-- Identification of key factors influencing heart health.
-- Analysis of demographic variability in heart attack incidences.
-- Correlations between lifestyle choices and heart attack risks.
+## Key Findings from EDA
+- **Age Distribution**: The majority of patients experiencing heart attacks were found to be in the age range of 50-60 years. This suggests a higher risk in this age group.
+- **Gender Differences**: Males are statistically more likely to experience heart attacks than females, with about 68% of the dataset comprising males who have suffered a heart attack.
+- **Cholesterol Levels**: Patients with heart attacks had higher average cholesterol levels compared to the healthy group, indicating a strong correlation between high cholesterol levels and heart attack incidence.
+- **Blood Pressure Insights**: High systolic blood pressure was another common factor among heart attack patients, with most patients showing systolic blood pressures above 140 mmHg.
+- **Smoking and Heart Attacks**: Smoking status showed a significant correlation with heart attack occurrences. Smokers comprised approximately 30% of heart attack cases, underscoring smoking as a major risk factor.
+- **Impact of Exercise**: Patients engaging in regular physical activity were less likely to have a heart attack, highlighting the protective effect of exercise against heart disease.
+
 
 ## What Did We Process in the EDA
 - Handling of missing values.
