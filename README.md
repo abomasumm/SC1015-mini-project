@@ -44,19 +44,27 @@ Detailed statistical analysis, including mean, median, mode, and distribution of
 
 ## Machine Learning Models
 
-- Logistic Regression
-- Logistic Regression with Hyperparameter Tuning
+The models used in this project include:
+
+Logistic Regression
+Decision Tree
+Random Forest
 
 ## Evaluations of Models
 
-Comparison of model performances based on accuracy, precision, recall, and F1-score metrics to select the most effective model for predicting heart attack likelihood.
+Each model was evaluated based on its performance metrics:
+
+Logistic Regression showed promising precision but lower recall.
+Decision Trees provided good interpretability but were prone to overfitting.
+Random Forest achieved the best overall accuracy and ROC-AUC score, indicating its effectiveness in handling unbalanced datasets.
 
 ## Conclusion
 
-Summary of the insights gained, the effectiveness of different models, and potential areas for further research.
+The Random Forest model outperformed other models in terms of accuracy and ability to predict heart attacks. This suggests that ensemble methods, which consider multiple decision paths, are better suited for complex health datasets.
 
 ## What We Have Learned
-Insights into the complexities of heart health and the role of data science in medical prediction and prevention strategies.
+
+This project reinforced the importance of careful feature selection and model tuning in improving prediction accuracies. It also highlighted the critical role of EDA in understanding underlying data characteristics before applying machine learning algorithms.
 
 ## Contributors
 
@@ -65,8 +73,12 @@ Insights into the complexities of heart health and the role of data science in m
 - Ethan Wong Kee Jann
 
 ## Acknowledgements
-
-Special thanks to all who contributed data, resources, and guidance to support this project, including various online resources and community forums for data science.
+Aaron: Machine Learning Models, Problem Formulation, Debugging
+Ethan: Sourcing of Data, Data Cleaning and Prepping, Problem Formulation, Slides
+Harshal: Exploratory Data Analysis, Problem Formulation, Slides
+## References
+https://www.kaggle.com/code/kanncaa1/heart-attack-analysis-prediction (link to download the dataset)
+https://archive.ics.uci.edu/dataset/45/heart+disease (info about dataset)
 
 
 
