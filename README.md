@@ -32,11 +32,11 @@ The goal of this project is to apply data science techniques to predict the like
 ## What Did We Process in the EDA
 
 - **Missing Values**: Identified and imputed missing values using statistical methods such as median imputation for skewed distributions and mean imputation for normally distributed features.
-- 
+  
 - **Feature Analysis**: Conducted detailed univariate and bivariate analyses, using box plots to visualize distributions and outliers, and bar charts to compare categorical variables.
-- 
+  
 - **Data Normalization**: Standardized numerical features to have zero mean and unit variance, essential for effective model performance.
-- 
+  
 - **Correlation Analysis**: Utilized Pearson correlation coefficients to identify strongly correlated variables, helping to understand the relationships between different risk factors and heart attack incidence.
 
 ## Statistical Descriptions
